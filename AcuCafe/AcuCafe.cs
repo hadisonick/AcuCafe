@@ -6,7 +6,7 @@ namespace AcuCafe
 {
     public  class AcuCafe
     {
-        IDrinkIngredientFactory _drinkIngredientFactory;
+
         public  Drink OrderDrink(string type, bool hasMilk, bool hasSugar, bool hasMocha = false)
         {
             Drink drink ;
